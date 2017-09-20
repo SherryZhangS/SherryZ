@@ -1,0 +1,16 @@
+package castle;
+
+public class HandlerHelp extends Handler {
+	public HandlerHelp(Game game) {
+		super(game);
+	}
+
+	@Override
+	public void doCmd(String word) {
+		System.out.println("迷路了？你可以选择：go bye");
+		System.out.println("例如：\tgo east");
+	    
+	}
+
+}
+
